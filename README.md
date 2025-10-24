@@ -1,3 +1,5 @@
+The fonts are at the [release](https://github.com/Skardyy/fonts/releases/latest) section
+
 ## CommitMono
 Configured CommitMono with nerd patch
 ```
@@ -11,7 +13,7 @@ Width Adj:    0
 ```
 
 ## ZedMono
-only the **extended** version of ZedMono NF (from the nerd font repo)
+Only the **extended** version of ZedMono NF (from the nerd font repo)
 ```
 Original:    ZedMono
 New Name:    _
