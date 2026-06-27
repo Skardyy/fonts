@@ -4,7 +4,7 @@ The fonts are at the [release](https://github.com/Skardyy/fonts/releases/latest)
 Configured CommitMono with nerd patch
 ```
 Original:     CommitMono
-New Name:     CommitMonoMn
+New Name:     CommitMonoMn Nerd Font
 Weight:       500, 700
 Italic:       Yes
 Nerd Patch:   --complete
@@ -13,10 +13,10 @@ Width Adj:    0
 ```
 
 ## CaskaydiaCoveMn
-modified CaskaydiaCove Nerd Font with different line height
+modified CaskaydiaCove Nerd Font with line height adj
 ```
 Original:     CaskaydiaCove Nerd Font
-New Name:     CaskaydiaCoveMn
+New Name:     CaskaydiaCoveMn Nerd Font
 Weight:       _
 Italic:       _
 Nerd Patch:   _
@@ -25,13 +25,13 @@ Width Adj:    _
 ```
 
 ## ZedMono
-Only the **extended** version of ZedMono NF (from the nerd font repo)
+Only the **extended** version of ZedMono NF (from the nerd font repo), with line height adj
 ```
-Original:    ZedMono
-New Name:    _
+Original:    ZedMono Nerd Font
+New Name:    ZedMonoMn Nerd Font
 Weight:      _
 Italic:      _
 Nerd Patch:  _
-Line Height: _
+Line Height: 1.5
 Width Adj:   _
 ```
