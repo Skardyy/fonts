@@ -1,0 +1,31 @@
+# Each [[font]] is downloaded, filtered, optionally Nerd-patched, line-height
+# patched, renamed, and tarred to dist/<name>.tar.gz. Fields:
+#   name         output tarball name (dist/<name>.tar.gz)
+#   description  shown in the generated README
+#   url          direct URL to a .zip of fonts
+#   keep         regex; files whose basename matches are kept
+#   line_height  float, total line box as fraction of em (omit to skip)
+#   rename       [pattern, replacement] regex sub on family name AND filename
+#                (omit to skip; idempotent, won't double-apply)
+#   nerd_patch   table {enabled, args}; runs the Nerd Fonts font-patcher on each
+#                kept file before the other steps. Needs Docker (nerdfonts/patcher)
+#                or a local `fontforge` + font-patcher. `args` is a string of
+#                extra flags, e.g. "--complete". Omit or enabled=false to skip.
+# Fonts in manual/ are not built here; they're scanned and documented in the
+# README automatically, and uploaded to the release as-is.
+
+[[font]]
+name = "CaskaydiaCoveMn"
+description = "CaskaydiaCove Nerd Font (Cascadia Code), proportional family only, line height adjusted."
+url = "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.4.0/CascadiaCode.zip"
+keep = '^CaskaydiaCoveNerdFont-.*\.ttf$'
+line_height = 1.5
+rename = ['CaskaydiaCove', 'CaskaydiaCoveMn']
+
+[[font]]
+name = "ZedMonoMn"
+description = "ZedMono Nerd Font, Extended cuts only, line height adjusted."
+url = "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.4.0/ZedMono.zip"
+keep = '^ZedMonoNerdFont-Extended.*\.ttf$'
+line_height = 1.5
+rename = ['ZedMono', 'ZedMonoMn']

@@ -1,0 +1,8 @@
+[project]
+name = "font-patcher"
+version = "1.0.0"
+description = "Config-driven Nerd Font line-height patcher and renamer"
+requires-python = ">=3.11"
+dependencies = [
+    "fonttools>=4.50",
+]
