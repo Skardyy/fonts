@@ -20,7 +20,7 @@ New Name:     CaskaydiaCoveMn Nerd Font
 Weight:       _
 Italic:       _
 Nerd Patch:   _
-Line Height:  1.5
+Line Height:  1.4
 Width Adj:    _
 ```
 
@@ -32,6 +32,6 @@ New Name:    ZedMonoMn Nerd Font
 Weight:      _
 Italic:      _
 Nerd Patch:  _
-Line Height: 1.5
+Line Height: 1.4
 Width Adj:   _
 ```
