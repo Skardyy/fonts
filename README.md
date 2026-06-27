@@ -12,13 +12,25 @@ Line Height:  1.4
 Width Adj:    0
 ```
 
+## CaskaydiaCoveMn
+modified CaskaydiaCove Nerd Font with different line height
+```
+Original:     CaskaydiaCove Nerd Font
+New Name:     CaskaydiaCoveMn
+Weight:       _
+Italic:       _
+Nerd Patch:   _
+Line Height:  1.5
+Width Adj:    _
+```
+
 ## ZedMono
 Only the **extended** version of ZedMono NF (from the nerd font repo)
 ```
 Original:    ZedMono
 New Name:    _
 Weight:      _
-Italic:      Yes
+Italic:      _
 Nerd Patch:  _
 Line Height: _
 Width Adj:   _
